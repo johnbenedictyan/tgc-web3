@@ -2,6 +2,12 @@
 
 This project demonstrates the lottery use case.
 
+To Install all dependencies:
+
+```shell
+yarn install
+```
+
 To Start the HardHat Local Host Blockchain :
 
 ```shell
