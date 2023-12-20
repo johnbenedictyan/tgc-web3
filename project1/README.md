@@ -14,7 +14,7 @@ To Start the HardHat Local Host Blockchain :
 npx hardhat node
 ```
 
-To Deploy the Lottery Smart Contract :
+To Deploy the Lottery Smart Contract (Different Terminal):
 
 ```shell
 npx hardhat ignition deploy ignition/modules/Toto.js --network localhost
