@@ -1,13 +1,15 @@
-# Sample Hardhat Project
+# TGC Web3 Project 1
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrates the lottery use case.
 
-Try running some of the following tasks:
+To Start the HardHat Local Host Blockchain :
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
 npx hardhat node
-npx hardhat run scripts/deploy.js
+```
+
+To Deploy the Lottery Smart Contract :
+
+```shell
+npx hardhat ignition deploy ignition/modules/Toto.js --network localhost
 ```
