@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lottery Frontend</title>
+    <style>
+        table,
+        th,
+        tr,
+        td {
+            border: 1px solid black;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Lottery</h1>
+
+    <div>
+        <label for="address">Enter your Ethereum address:</label>
+        <input type="text" id="address" placeholder="0x..." />
+        <button onclick="enterLottery()">Enter Lottery</button>
+    </div>
+
+    <div>
+        <h2>Participants:</h2>
+        <ul id="participants"></ul>
+    </div>
+
+    <div>
+        <button onclick="pickWinner()">Pick Winner</button>
+    </div>
+
+    <div>
+        <h2>Test Accounts:</h2>
+        <table id="accounts">
+        </table>
+
+    </div>
+
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
